@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-material-theme"
+  spec.name          = "jekyll-display-medium-posts"
   spec.version       = "0.1.0"
   spec.authors       = ["James Hamann"]
   spec.email         = ["jameshamann0@gmail.com"]
 
-  spec.summary       = "A Material Theme for Jekyll"
+  spec.summary       = "A Gem that Parses your Medium RSS Feed and displays it on your Jekyll Site."
   spec.homepage      = "https://github.com/jameshamann/jekyll-display-medium-posts-theme"
   spec.license       = "MIT"
 
@@ -16,4 +16,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "feedjira"
+
 end
