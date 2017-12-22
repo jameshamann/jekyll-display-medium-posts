@@ -6,7 +6,7 @@ module Jekyll
 def generate(site)
       jekyll_coll = Jekyll::Collection.new(site, 'external_feed')
       site.collections['external_feed'] = jekyll_coll
-Feedjira::Feed.fetch_and_parse("https://medium.com/feed/@jameshamann").entries.each do |e|
+Feedjira::Feed.fetch_and_parse("https://medium.com/feed/@" + ENV["MEDIUM_USERNAME"]).entries.each do |e|
         p "Title: #{e.title}, published on Medium #{e.url} #{e}"
         title = e[:title]
         content = e[:content]
