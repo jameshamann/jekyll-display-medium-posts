@@ -1,6 +1,6 @@
 # Jekyll Display Medium Posts
 
-A Gem that
+A Gem that fetches your RSS feed, parses and saves the request to be used within your Jekyll Site.
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-material-theme.svg)](https://badge.fury.io/rb/jekyll-material-theme)
 
@@ -8,16 +8,13 @@ A Gem that
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Add this line to your Jekyll site's `Gemfile` within the <b>:jekyll_plugins</b> section.
 
 ```ruby
 group :jekyll_plugins do
   gem "jekyll-display-medium-posts"
 end
 ```
-
-And add this line to your Jekyll site's `_config.yml`:
-
 And then execute:
 
     $ bundle
@@ -27,6 +24,36 @@ Or install it yourself as:
     $ gem install jekyll-display-medium-posts
 
 ## Usage
+
+And add the following line to your Jekyll site's `_config.yml`:
+
+```yaml
+
+collections:
+  - external_feed
+```
+
+This is where your parsed Blog Feed will be stored. From here you're able to access it in whatever page you wish.
+
+For example, you could create a ```blog.html``` page with the following code.
+
+```html
+<h2> Latest Blog Posts </h2>
+
+{% for e in site.external_feed %}
+
+<div class="row">
+  <h3>{{e.title}}</h3>
+  <p>{{e.feed_content}}</p>
+
+  {% endfor %}
+
+</div>
+
+```
+This will create an endless scroll of your latest blog posts.
+
+Of course there are many other options available, if you prefer to list the blog titles and link to the body of the article on a separate page, your code may look something like this.
 
 ## Contributing
 
