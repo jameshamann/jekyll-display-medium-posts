@@ -30,7 +30,7 @@ And add the following line to your Jekyll site's `_config.yml`:
 ```yaml
 
 collections:
-  - external_feed
+  - medium_posts
 ```
 
 This is where your parsed Blog Feed will be stored. From here you're able to access it in whatever page you wish.
@@ -52,8 +52,6 @@ For example, you could create a ```blog.html``` page with the following code.
 
 ```
 This will create an endless scroll of your latest blog posts.
-
-Of course there are many other options available, if you prefer to list the blog titles and link to the body of the article on a separate page, your code may look something like this.
 
 ## Contributing
 
