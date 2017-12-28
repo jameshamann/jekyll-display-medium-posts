@@ -2,7 +2,8 @@
 
 A Gem that fetches your RSS feed, parses and saves the request to be used within your Jekyll Site.
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-material-theme.svg)](https://badge.fury.io/rb/jekyll-material-theme)
+
+[![Coverage Status](https://coveralls.io/repos/github/jameshamann/jekyll-display-medium-posts/badge.svg?branch=master)](https://coveralls.io/github/jameshamann/jekyll-display-medium-posts?branch=master)
 
 ### [Live Demo](https://jameshamann.com/blog)
 
@@ -43,7 +44,7 @@ $ export MEDIUM_USERNAME=jameshamann
 
 ```
 
-You could also set this variable in your bash profile or, if you're using [dotenv](https://github.com/bkeepers/dotenv), you can add this to your <b> .env </b> file. 
+You could also set this variable in your bash profile or, if you're using [dotenv](https://github.com/bkeepers/dotenv), you can add this to your <b> .env </b> file.
 
 For example, you could create a ```blog.html``` page with the following code.
 
