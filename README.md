@@ -40,7 +40,7 @@ For example, you could create a ```blog.html``` page with the following code.
 ```html
 <h2> Latest Blog Posts </h2>
 
-{% for e in site.external_feed %}
+{% for e in site.medium_posts %}
 
 <div class="row">
   <h3>{{e.title}}</h3>
@@ -52,6 +52,10 @@ For example, you could create a ```blog.html``` page with the following code.
 
 ```
 This will create an endless scroll of your latest blog posts.
+
+## Further Development
+
+• The ability to save and view each medium post seperately.
 
 ## Contributing
 
