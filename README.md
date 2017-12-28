@@ -35,6 +35,16 @@ collections:
 
 This is where your parsed Blog Feed will be stored. From here you're able to access it in whatever page you wish.
 
+Lastly, you'll need to set an Environment Variable for your Medium Username. For example, if your medium profile is https://medium.com/@jameshamann, your username would be <b> jameshamann </b>. The quickest way to set this would be to run the following command in your shell.
+
+```bash
+
+$ export MEDIUM_USERNAME=jameshamann
+
+```
+
+You could also set this variable in your bash profile or, if you're using [dotenv](https://github.com/bkeepers/dotenv), you can add this to your <b> .env </b> file. 
+
 For example, you could create a ```blog.html``` page with the following code.
 
 ```html
