@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jameshamann0@gmail.com"]
 
   spec.summary       = "A Gem that Parses your Medium RSS Feed and displays it on your Jekyll Site."
-  spec.homepage      = "https://github.com/jameshamann/jekyll-display-medium-display-posts"
+  spec.homepage      = "https://github.com/jameshamann/jekyll-display-medium-posts"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(js|css|assets|_layouts|_includes|_posts|LICENSE|README)}i) }
