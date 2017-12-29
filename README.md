@@ -2,10 +2,8 @@
 
 A Gem that fetches your RSS feed, parses and saves the request to be used within your Jekyll Site.
 
-
-[![Coverage Status](https://coveralls.io/repos/github/jameshamann/jekyll-display-medium-posts/badge.svg?branch=master)](https://coveralls.io/github/jameshamann/jekyll-display-medium-posts?branch=master)
-
-[![Build Status](https://travis-ci.org/jameshamann/jekyll-display-medium-posts.svg?branch=master)](https://travis-ci.org/jameshamann/jekyll-display-medium-posts)
+[![Build Status](https://travis-ci.org/jameshamann/jekyll-display-medium-posts.svg?branch=master)](https://travis-ci.org/jameshamann/jekyll-display-medium-posts
+  
 ### [Live Demo](https://jameshamann.com/blog)
 
 ## Installation
@@ -75,7 +73,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/jamesh
 
 ## ToDo
 
-• Add proper tests. 
+• Add proper tests.
 
 ## License
 
