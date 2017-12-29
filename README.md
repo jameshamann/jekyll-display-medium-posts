@@ -2,7 +2,7 @@
 
 A Gem that fetches your RSS feed, parses and saves the request to be used within your Jekyll Site.
 
-[![Build Status](https://travis-ci.org/jameshamann/jekyll-display-medium-posts.svg?branch=master)](https://travis-ci.org/jameshamann/jekyll-display-medium-posts
+[![Build Status](https://travis-ci.org/jameshamann/jekyll-display-medium-posts.svg?branch=master)](https://travis-ci.org/jameshamann/jekyll-display-medium-posts)
 
 ### [Live Demo](https://jameshamann.com/blog)
 
