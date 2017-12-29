@@ -67,7 +67,7 @@ This will create an endless scroll of your latest blog posts.
 
 You can test if this works by running ```jekyll serve``` and monitoring the output on your terminal. You should notice a list of your latest posts, along with their titles, like this.
 
-```bash
+```
 → jekyll serve
 Configuration file: yourpath/_config.yml
             Source: /yourpath
@@ -89,7 +89,7 @@ W, [2017-12-29T14:12:28.986083 #20647]  WARN -- Feedjira: Failed to parse last m
  Auto-regeneration: enabled for '/yourpath'
     Server address: http://127.0.0.1:4000//
   Server running... press ctrl-c to stop.
-``
+```
 
 ## Further Development
 
