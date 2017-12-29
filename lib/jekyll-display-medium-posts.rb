@@ -1,6 +1,7 @@
 require 'feedjira'
+require 'jekyll'
 module Jekyll
-  class MediumPostDisplay < Generator
+  class JekyllDisplayMediumPosts < Generator
     safe true
     priority :high
 def generate(site)
