@@ -87,8 +87,7 @@ W, [2017-12-29T14:12:28.986083 #20647]  WARN -- Feedjira: Failed to parse last m
  Auto-regeneration: enabled for '/yourpath'
     Server address: http://127.0.0.1:4000//
   Server running... press ctrl-c to stop.
-^[
-```
+``
 
 ## Further Development
 
