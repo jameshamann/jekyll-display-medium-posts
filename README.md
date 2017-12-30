@@ -94,6 +94,7 @@ W, [2017-12-29T14:12:28.986083 #20647]  WARN -- Feedjira: Failed to parse last m
 ## Further Development
 
 • The ability to save and view each medium post seperately.
+• The ability to automate updating the "Latest Blog Posts" feed.
 
 ## Contributing
 
