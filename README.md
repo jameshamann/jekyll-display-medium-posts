@@ -6,7 +6,7 @@ A Gem that fetches your RSS feed, parses and saves the request to be used within
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-display-medium-posts.svg)](https://badge.fury.io/rb/jekyll-display-medium-posts)
 
-### [Live Demo](https://jameshamann.com/blog)
+### [Live Demo](https://jameshamann.com/blog/index.html)
 
 ## Installation
 
