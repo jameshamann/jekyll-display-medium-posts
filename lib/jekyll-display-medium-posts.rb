@@ -1,5 +1,6 @@
 require 'feedjira'
 require 'jekyll'
+require 'httparty'
 module Jekyll
   class JekyllDisplayMediumPosts < Generator
     safe true
@@ -7,7 +8,9 @@ module Jekyll
 def generate(site)
       jekyll_coll = Jekyll::Collection.new(site, 'medium_posts')
       site.collections['medium_posts'] = jekyll_coll
-Feedjira::Feed.fetch_and_parse("https://medium.com/feed/@" + ENV["MEDIUM_USERNAME"]).entries.each do |e|
+      xml = HTTParty.get("https://medium.com/feed/@" + ENV["MEDIUM_USERNAME"]).body
+      feed = Feedjira.parse(xml)
+      feed.entries.each do |e|
         p "Title: #{e.title}, published on Medium #{e.url} #{e}"
         title = e[:title]
         content = e[:content]
