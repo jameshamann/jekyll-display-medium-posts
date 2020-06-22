@@ -18,6 +18,9 @@ Feedjira::Feed.fetch_and_parse("https://medium.com/feed/@" + ENV["MEDIUM_USERNAM
         doc.data['title'] = title;
         doc.data['feed_content'] = content;
         doc.data['medium_link'] = e.url;
+        doc.data['pubDate'] = e.pubDate;
+        doc.data['thumbnail'] = e.thumbnail;
+        doc.data['description'] = e.description;
         jekyll_coll.docs << doc
       end
     end
